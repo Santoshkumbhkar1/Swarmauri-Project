@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    min-height: 100vh; /* Full height of the viewport */
+  }
+  
+  .main-content {
+    flex: 1; /* Allow the main content to grow and fill space */
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: center; /* Center the items */
+    width: 100%; /* Full width */
+    background-color: #121212; /* Footer background color */
+    padding: 1rem; /* Padding for the footer */
+    color: white; /* Text color */
+    
+}
+
+.footer-card {
+    
+    background-color: #f3f3f3; /* Light gray background for cards */
+    border: 0px solid #ddd; /* Card border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 2px; /* Inner padding */
+    margin: 3px; /* Space between cards */
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, and base width */
+    min-width: 200px; /* Minimum width for responsiveness */
+}
+
